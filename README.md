@@ -17,7 +17,7 @@ This repository contains a reproducible RNA-seq data processing pipeline based o
 \## Dataset Information
 
 
-\- \*\*DOI:\*\*   GEO accession: GSE308384
+\- \*\*GEO accession: \*\*   GSE308384
 
 \- \*\*Title:\*\* Dextran-based T-cell expansion nanoparticles for manufacturing CAR T cells with augmented efficacy  
 
