@@ -47,3 +47,48 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# -------------------------------
+# Raw sequencing data (very large)
+# -------------------------------
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sra
+
+# -------------------------------
+# Alignment files (very large)
+# -------------------------------
+*.sam
+*.bam
+*.bam.bai
+
+# -------------------------------
+# Intermediate files
+# -------------------------------
+*_subset.fastq
+*_unpaired.fastq.gz
+
+# -------------------------------
+# Temporary files
+# -------------------------------
+tmp/
+*.tmp
+
+# -------------------------------
+# QC outputs (keep selectively)
+# -------------------------------
+fastqc/*
+!results/qc/*.html
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+
+# -------------------------------
+# System files
+# -------------------------------
+.DS_Store
+Thumbs.db
